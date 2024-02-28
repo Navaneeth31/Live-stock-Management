@@ -1,0 +1,119 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.logo{
+
+  color: #ffffff;
+  cursor: pointer;
+}
+nav a {
+  
+  color: #ffffff;
+  text-decoration: none;
+  text-align:  center;
+  padding: 14px 16px;
+  display: inline-block;
+  
+}
+
+
+.nav_links{
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+
+}
+
+.nav_links li a:hover{
+  color:#0088a9
+}
+
+button{
+  padding: 9px 25px;
+  background-color:rgba(0, 136, 169, 1) ;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  background-color:rgba(0, 136, 169, 0.8) ;
+}
+
+.active{
+  background-color:rgba(0, 136, 169, 0.8) ;
+  border-radius: 50px;
+}
+
+
+
+
+
+.wapper {
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+border-radius: 10px;
+
+}
+
+.wapper img {
+  padding: 10px;
+
+}
+/* Navigation Styles */
+.body,html {
+  
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background: url('pexels-keith-lobo-18205631.jpg')no-repeat; */
+  background-color: #24252A;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* Layout Styles */
+
+.sidebar {
+  padding: 20px;
+}
+.sidebar {
+  background-color: #fffafa;
+  margin-top: 20px;
+}
+img {
+  border-radius: 20px;
+}
+
+/* List Styles */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+/* Footer Styles */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+} 
+
+.btnlogin-popup{
+  cursor: pointer;
+}
